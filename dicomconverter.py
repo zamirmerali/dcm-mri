@@ -1,10 +1,3 @@
-#Dicom Converter
-#Copyright, Zamir Merali, April 27, 2018
-#This module accomplishes the following task:
-#Input: Many patient's ax_t2 images, slice labels
-#The guts: Dicoms are normalized to slice thickness, a map is applied, more pre-processing. 
-#Output: Each slice is loaded to a numpy array, the label is read from the csv, and a jepg is saved and named. 
-#Output: Jpegs that are labeled compressed1,2,3... and notcompressed1,2,3. 
 
 #Dependancies
 import os

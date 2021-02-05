@@ -1,11 +1,3 @@
-#Dicom Labeler
-#Copyright, Zamir Merali, March 31, 2018
-#2708, 80 John St. Toronto, ON, M5V3X4
-#This module accomplishes the following task:
-#Input: Many patient's ax_t2 images.
-#The guts: Dicoms are normalized to slice thickness, a map is applied, more pre-processing. 
-#Output: Each slice is displayed, awaits an input, and appends the class label to an array
-#Output: Array with label for each slice
 
 #Dependancies
 import os
